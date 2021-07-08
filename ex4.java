@@ -1,7 +1,15 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class ex4 {
         public static void main(String args[]){
+            
+            //名前入力
+            System.out.println("What is your name?");
+            Scanner scan = new Scanner(System.in);
+            String str = scan.next();
+            System.out.println("Hello," + str + "!");
+                
             Random rnd = new Random();
 
             int a = rnd.nextInt(7) + 1;
