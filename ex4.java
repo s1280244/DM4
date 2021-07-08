@@ -24,10 +24,10 @@ public class ex4 {
             //７以上で"Won",７以下で"lost"
             System.out.println(" ");
             if(total>7){
-                System.out.println("You won");
+                System.out.println(str + " won!");
             }
             else{
-                System.out.println("You lost");
+                System.out.println(str + " lost...");
             }
         }
 }
