@@ -12,5 +12,14 @@ public class ex4 {
             System.out.println("Dice A:" + a);
             System.out.println("Dice B:" + b);
             System.out.println("Total value:" + total);
+                
+            //７以上で"Won",７以下で"lost"
+            System.out.println(" ");
+            if(total>7){
+                System.out.println("You won");
+            }
+            else{
+                System.out.println("You lost");
+            }
         }
 }
